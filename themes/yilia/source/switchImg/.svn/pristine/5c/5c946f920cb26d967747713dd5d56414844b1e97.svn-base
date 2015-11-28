@@ -1,0 +1,125 @@
+require.config({
+	baseUrl: 'js',
+	paths: {
+		jquery: 'libs/jquery-1.9.1.min',
+		mCustomScrollbar:'libs/mCustomScrollbar/jquery.mCustomScrollbar',
+		//jquery: 'models/humanResourse/require-models/jquery/jquery/1.10.1/jquery.js',
+      	easing: 'libs/easing',
+      	masterMain:'models/humanResourse/lucky/src/main',
+      	datas:'models/humanResourse/lucky/src/data',
+      	lucky:'models/humanResourse/lucky/src/lucky',
+      	users:'models/humanResourse/lucky/src/user'
+		/*,
+		text: 'libs/text',
+		tpl: '../tpl',
+		popup: '../popup'*/
+	},
+	shim: {
+		/*Framework7: {
+			exports: 'Framework7'
+		}*/
+	},
+	urlArgs: "v=" +  (new Date()).getTime()
+});
+
+require(['jquery'], function ($) {
+	$(document).ready(function(){
+		var tw=$(".talent-strategy").width(),
+			rw=$(".roadmap").width(),
+			ew=$(".employee-elegant").width();
+		$(".talent-strategy").height(tw*0.406);	
+		$(".roadmap").height(rw*0.5);
+		$(".employee-elegant").height(ew*0.406);
+		$(window).scroll(function(){
+			$(".scroll-index").each(function(){
+				var index=$(this).index(),					
+					thisTop=$(this).offset().top,
+					nextTop=$(this).next().offset().top;
+				if($(window).scrollTop()>=thisTop || $(window).scrollTop()<nextTop){
+					var dtW=$(".employee-menu dt").width(),
+						barW=(dtW+50)*index;
+						$(".menu-bottom").animate({left:barW});
+				}				
+			});			
+		    if ($(window).scrollTop()>100){
+		        $(".scroll-top").fadeIn(1500);
+		    }
+		    else{
+		        $(".scroll-top").fadeOut(1500);
+		    }
+		});
+		$(".scroll-top").click(function(){
+			$('body,html').animate({scrollTop:0},500);
+            return false;
+        });
+		$(".employee-menu dt").on("click",function(){
+			var index=$(this).index();
+			var menuBar=($(this).width()+50)*index;
+			$(".menu-bottom").animate({left:menuBar});
+			$('body,html').animate({scrollTop:$(".scroll-index").eq(index-1).offset().top},500);
+		});
+		$(".email-to").click(function(){
+			$(".email-doc").show();
+		});
+		/*两级联动tab切换*/
+		$(".oneTab li").on('click',function(j){
+			var i=$(this).index();
+			var that=$(this);
+			var oldClass=that.find("label").attr("class");
+			if(oldClass.indexOf("clicked-")<0){
+				var newClass="clicked-"+oldClass;
+				that.find("label").addClass(newClass).removeClass(oldClass);
+				that.find("span").addClass("colorRed");
+				var barPosition=(that.width())*i+10;
+				$(".bottom-bar").animate({left:barPosition});
+				that.siblings().each(function(){
+					var sibOld=$(this).find("label").attr("class");
+					if(sibOld){
+						if(sibOld.indexOf("clicked-")>=0){
+							var sibNew=sibOld.substring(8);
+							$(this).find("label").addClass(sibNew).removeClass(sibOld);
+							$(this).find("span").removeClass("colorRed");
+						}
+					}
+										
+				});
+			$(".recruitment-submenu").eq(i).siblings().fadeOut(1000);
+			$(".recruitment-submenu").eq(i).fadeIn(1000);
+			}
+		});
+		$(".submenu ul li").click(function(){
+			that=$(this);
+			var index=that.index();
+			that.siblings().removeClass("recruitment-focus");
+			that.addClass("recruitment-focus");
+			that.parent().siblings(".submenu-content").slideUp();
+			that.parent().siblings(".submenu-content").eq(index).slideDown();
+		});
+		$(".closeEmail").click(function(){
+			$(this).closest(".email-doc").fadeOut(500);
+		});
+	});
+	$(window).resize(function(){
+		var tw=$(".talent-strategy").width(),
+			rw=$(".roadmap").width(),
+			ew=$(".employee-elegant").width();
+		$(".talent-strategy").height(tw*0.406);	
+		$(".roadmap").height(rw*0.5);
+		$(".employee-elegant").height(ew*0.406);
+	});
+	
+	if (document.attachEvent) {
+	  	alert("Old IE 不支持照片查看哦")
+	}
+	/*
+	require(["easing"]);
+	require(["masterMain"]);
+	*/
+});
+
+require(['jquery','mCustomScrollbar'],function($,mCustomScrollbar){
+	$(".submenu-content").mCustomScrollbar({
+		autoHideScrollbar: true,
+		horizontalScroll:false
+	});
+});

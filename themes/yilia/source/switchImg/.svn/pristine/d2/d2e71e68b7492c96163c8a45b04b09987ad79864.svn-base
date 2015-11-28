@@ -1,0 +1,39 @@
+define(['skip', 'imgFix'], function (skip) {
+
+
+
+	/**
+	 * init
+	 */
+	var begin = {};
+
+	//初始化方法
+	begin.init = function () {
+		this.banner();
+		this.imgAttach();
+	}
+
+	//首页幻灯片方法
+	begin.banner = function(){
+		$(document).ready(function() {
+                $("#random").skippr({
+                	autoPlay: false,
+                });
+                
+            });
+	}
+
+	begin.imgAttach = function(){
+
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 10,
+				responsive: true
+			});
+		
+	}
+
+	return {
+		begin: begin
+	};
+});

@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<head>
+<title>热点新闻</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="昊美科技 官网 ">
+	<meta name="keywords" content="昊美科技有限公司">
+	<meta name="author" content="昊美科技UED">
+	<meta name="robots" content="index,follow">
+	<meta name="application-name" content="bootcss.com">
+	<meta property="qc:admins" content="1603466166416277433363757477167" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="js/libs/mcustomscrollbar/jquery.mCustomScrollbar.css"/>
+	<link rel="stylesheet" type="text/css" href="css/employee.css">
+</head>
+<body>
+	<div class="news">
+		<div class="news-menu">
+			<dl>
+				<dd>Harmony</dd>
+				<dt>新闻头条</dt>
+				<dt>企业新闻</dt>
+				<dt>行业热点</dt>
+				<dt class="menu-bottom"></dt>				
+			</dl>			
+		</div>
+		<div class="topic-news scroll-index">
+			<!--
+			<ul>
+				<li>
+					<img src="img/news/news_3.jpg" alter="pic1">
+				</li>
+			</ul>
+			<div class="description">
+				<div class="title"></div>
+				<div class="content"></div>
+			</div>
+		-->
+
+			<div class="banner">
+				<ul class="banner-img">
+					<li class="active-news">
+						<a href="###"><img src="img/news/news_04.jpg" width="100%" alt="昊美科技荣获2013年度智慧城市信息化'最具成长力企业奖"/></a>			
+						<label class="img-bottom">
+							<a href="###">昊美科技荣获2013年度智慧城市信息化'最具成长力企业奖</a>
+							<span class="pic-descript">
+								1、2013年9月12日，由《中国计算机报》、中国计算机行业协会、中国信息化推进联盟联合主办的“第五届中国行业信息化奖项评选活动暨
+							</span>
+						</label>
+					</li>
+					<li style="display:none;">
+						<a href="###"><img src="img/news/news_05.jpg" width="100%" alt="昊美科技荣获2013年度智慧城市信息化'最具成长力企业奖"/></a>			
+						<label class="img-bottom">
+							<a href="###">昊美科技荣获2013年度智慧城市信息化'最具成长力企业奖</a>
+							<span class="pic-descript">
+								2、2013年9月12日，由《中国计算机报》、中国计算机行业协会、中国信息化推进联盟联合主办的“第五届中国行业信息化奖项评选活动暨
+							</span>
+						</label>
+					</li>
+					<li style="display:none;">
+						<a href="###"><img src="img/news/news_06.jpg" width="100%" alt="昊美科技荣获2013年度智慧城市信息化'最具成长力企业奖"/></a>			
+						<label class="img-bottom">
+							<a href="###">昊美科技荣获2013年度智慧城市信息化'最具成长力企业奖</a>
+							<span class="pic-descript">
+								3、2013年9月12日，由《中国计算机报》、中国计算机行业协会、中国信息化推进联盟联合主办的“第五届中国行业信息化奖项评选活动暨
+							</span>
+						</label>
+					</li>
+				</ul>
+				<ul class="banner-bt">				
+					<li class="active"><a class="pointer"><span class="ico"></span></a></li>
+					<li><a class="pointer"><span class="ico"></span></a></li>
+					<li><a class="pointer"><span class="ico"></span></a></li>
+				</ul>
+			</div>
+
+
+
+		</div>
+		<div class="enterprise-news conmpany-news box-shadow scroll-index">
+			<div class="title">企业新闻</div>
+			<span class="content-line"></span>
+			<div class="content">
+				<ul class="list">
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="news-page">
+					<li class="prev"></li>
+					<li class="colorRed">1</li>
+					<li>2</li>
+					<li class="next"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="enterprise-news bussy-news box-shadow scroll-index">
+			<div class="title">行业热点</div>
+			<span class="content-line"></span>
+			<div class="content">
+				<ul class="list">
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="news-title">贺我司取得《计算机信息系统集成企业资质三级证书》</span>
+							<span class="news-time">2014-11-13</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="news-page">
+					<li class="prev"></li>
+					<li class="colorRed">1</li>
+					<li>2</li>
+					<li class="next"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="copy-right-outer scroll-index">
+			<p>
+				<span class="company-logo"></span>
+				<em>杭州昊美科技有限公司</em><span>Copyright All Right Reserved</span><span>www.harmony3.com(2005-2014)</span>
+			</p>
+		</div>
+		<div class="scroll-top">BACK TOP</div>
+	</div>
+<script type="text/javascript" src="js/libs/require.js" data-main="js/models/topicNews.js"></script>
+</body>
+</html>

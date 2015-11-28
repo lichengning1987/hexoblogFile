@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>关于昊美</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="昊美科技 官网 ">
+    <meta name="keywords" content="昊美科技有限公司">
+    <meta name="author" content="昊美科技UED">
+    <meta name="robots" content="index,follow">
+    <meta name="application-name" content="bootcss.com">
+    <meta property="qc:admins" content="1603466166416277433363757477167" />
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/layview.css"/>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/assets/js/html5shiv.min.js?v=c8b9b3015b"></script>
+    <script src="/assets/js/respond.min.js?v=c8b9b3015b"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="ln-wrap">
+    <div class="ln-header ln-header-harmony">
+        <!--导航开始-->
+        <div class="nav">
+            <div class="navbox w980 margin-auto">
+               <span class="logo">
+                  Harmony
+                </span>
+                <ul class="navbar fl clearfix">
+                    <li class="cur">
+                        <a href="#p1">企业介绍</a>
+                    </li>
+                    <li>
+                        <a href="#p2">
+                            发展历程
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#p3">
+                            企业资质
+                        </a>
+                    </li>
+                    <li>
+
+                        <a href="#p4">
+                            企业文化
+                        </a>
+                    </li>
+                </ul>
+                <div class="navline"></div>
+            </div>
+        </div>
+        <!--导航结束-->
+        <!--企业介绍开始-->
+        <div class="harmony-info w900 margin-auto p1">
+            <div class="harmonybox">
+                <p>
+                    <em>杭州昊美科技有限公司</em>（以下简称昊美科技）是一家专业从事电力、交通、内贸流通等城市公共服务领域信息化、智能化系列产品研发、工程实施及技术服务的高新技术企业，系双软认定的软件企业，公司总部位于杭州高新技术产业开发区（国家级开发区）。公司成立于2005年，前身为杭州华立电网科技有限公司。
+                </p>
+                <p>
+                    昊美科技始终坚持以领先技术为根本，以高效服务为基础，以实现客户目标为核心；不断完善、发展新技术、新产品，持续满足客户需求；系电力、市政、医疗、教育等领域信息化、智能化建设和技术工程服务的系统集成供应商；
+                </p>
+                <p>
+                    公司在杭州、上海、北京设有不同领域的专业化研究机构，与杭州师范大学联合建立了专业的智慧城市研究中心；确保公司持续的技术领先优势；公司法人治理结构和人力资源结构十分合理并持续保持其先进性，拥有超１５０人的专业研发团队，超２６０人的专业技术服务团队，研发和技术服务团队主要由博士、硕士、首席工程师、高级工程师及工程师为主构成，形成了年轻化、专业化、知识化的专业技术队伍，昊美科技始终立足于电力等城市公共服务领域信息化、数据通信、实时控制、智慧城市运营及管理等方向的技术研发、产品提供和技术服务。公司具备电力、市政等领域专业软件产品开发、工程实施及技术服务系统集成供应商能力。
+                </p>
+            </div>
+        </div>
+        <!--企业介绍开始-->
+    </div>
+    <!--发展历程开始-->
+    <div class="ln-harmony-Course p2">
+        <div class="Course-title">
+            发展历程
+        </div>
+        <div class="Course-box w980 margin-auto" >
+            <div class="Course-yearbox">
+                <div class="Course-year">
+                    <span>2013</span>
+                    <b class="icon-year icon-arrowdown"></b>
+                </div>
+                <div class="Course-yearinfo">
+                    <div class="yearline">
+                    </div>
+                    <div class="Course-month">
+                        <ul class="Course-monthlist">
+                            <li class="month-left">
+                                <h4>
+                                    <em>06</em>月
+                                </h4>
+                                <p class="month-title">
+                                    需求分析技能训练营
+                                </p>
+                                <b class="point">
+                                </b>
+                                <b class="icon-triangle">
+
+                                </b>
+                                <img src="img/pro/ff.png" alt=""/>
+                            </li>
+                            <li class="month-right" >
+                                <h4>
+                                    <em>06</em>月
+                                </h4>
+                                <p class="month-title">
+                                    需求分析技能训练营
+                                </p>
+                                <b class="point">
+                                </b>
+                                <b class="icon-triangle">
+                                </b>
+
+
+                            </li>
+                            <li class="month-left" >
+                                <h4>
+                                    <em>06</em>月
+                                </h4>
+                                <p class="month-title">
+                                    需求分析技能训练营
+                                </p>
+                                <b class="point">
+                                </b>
+                                <b class="icon-triangle">
+
+                                </b>
+
+                            </li>
+                            <li class="month-right" >
+                                <h4>
+                                    <em>06</em>月
+                                </h4>
+                                <p class="month-title">
+                                    需求分析技能训练营
+                                </p>
+                                <b class="point">
+                                </b>
+                                <b class="icon-triangle">
+
+                                </b>
+                                <img src="img/pro/ff.png" alt=""/>
+                            </li>
+                            <li class="month-left" >
+                                <h4>
+                                    <em>06</em>月
+                                </h4>
+                                <p class="month-title">
+                                    需求分析技能训练营
+                                </p>
+                                <b class="point">
+                                </b>
+                                <b class="icon-triangle">
+
+                                </b>
+                                <img src="img/pro/ff.png" alt=""/>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="Course-lastpoint">
+                <b class="line"></b>
+            </div>
+            <div class="Course-yearbox">
+                <div class="Course-year">
+                    <span>2012</span>
+                    <b class="icon-year icon-arrowdown"></b>
+                </div>
+                <div class="Course-yearinfo">
+                    <div class="yearline">
+                    </div>
+                    <div class="Course-month">
+                        <ul class="Course-monthlist">
+                            <li class="month-left">
+                                <h4>
+                                    <em>01</em>月
+                                </h4>
+                                <p class="month-title">
+                                    需求分析技能训练营
+                                </p>
+                                <b class="point">
+                                </b>
+                                <b class="icon-triangle">
+
+                                </b>
+                            </li>
+                            <li class="month-right" >
+                                <h4>
+                                    <em>02</em>月
+                                </h4>
+                                <p class="month-title">
+                                    需求分析技能训练营
+                                </p>
+                                <b class="point">
+                                </b>
+                                <b class="icon-triangle">
+                                </b>
+
+
+                            </li>
+                            <li class="month-left" >
+                                <h4>
+                                    <em>03</em>月
+                                </h4>
+                                <p class="month-title">
+                                    需求分析技能训练营
+                                </p>
+                                <b class="point">
+                                </b>
+                                <b class="icon-triangle">
+
+                                </b>
+
+                            </li>
+                            <li class="month-right" >
+                                <h4>
+                                    <em>04</em>月
+                                </h4>
+                                <p class="month-title">
+                                    需求分析技能训练营
+                                </p>
+                                <b class="point">
+                                </b>
+                                <b class="icon-triangle">
+
+                                </b>
+                            </li>
+                            <li class="month-left" >
+                                <h4>
+                                    <em>05</em>月
+                                </h4>
+                                <p class="month-title">
+                                    需求分析技能训练营
+                                </p>
+                                <b class="point">
+                                </b>
+                                <b class="icon-triangle">
+
+                                </b>
+                                <img src="img/pro/ff.png" alt=""/>
+                            </li>
+                            <li class="month-right" >
+                                <h4>
+                                    <em>06</em>月
+                                </h4>
+                                <p class="month-title">
+                                    需求分析技能训练营
+                                </p>
+                                <b class="point">
+                                </b>
+                                <b class="icon-triangle">
+
+                                </b>
+                                <img src="img/pro/ff.png" alt=""/>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="Course-lastpoint">
+                <b class="line"></b>
+            </div>
+            <div class="Course-lastpoint">
+                <b class="point"></b>
+            </div>
+         </div>
+    </div>
+    <!--发展历程结束-->
+    <!--企业资质开始-->
+    <div class="ln-busBox p3">
+        <div class="product-title">
+            <span class="title">企业资质</span>
+        </div>
+        <div class="ln-harmony-qualification">
+             <div class="qua-nav w980 margin-auto">
+            <ul class="list-qua clearfix">
+                <li class="cur">
+                    <div class="icon-qua">
+
+                    </div>
+                    <p>
+                        资质认证
+                    </p>
+                </li>
+                <li>
+                    <div class="icon-qua">
+
+                    </div>
+                    <p>
+                        资质认证1
+                    </p>
+                </li>
+                <li>
+                    <div class="icon-qua">
+
+                    </div>
+                    <p>
+                        资质认证2
+                    </p>
+                </li>
+            </ul>
+            <div class="qua-hoverline"></div>
+        </div>
+        </div>
+        <div class="product-slide-box" >
+            <div class="product-carsous w980 carsous " >
+                <div  class="left"></div>
+                <div  class="center">
+                    <ul class="olist">
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">1111111111杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">2222杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">3333杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">4444杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">5555杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">666杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">777杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+
+                    </ul>
+                    <div  class="scroll"> <span></span> </div>
+                </div>
+                <div  class="right"></div>
+            </div>
+        </div>
+        <div class="product-slide-box" style="display:none;">
+            <div class="product-carsous w980 carsous " >
+                <div  class="left"></div>
+                <div  class="center">
+                    <ul class="olist">
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">1111111111杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">2222杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">3333杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">4444杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">5555杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">666杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">777杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+
+                    </ul>
+                    <div  class="scroll"> <span></span> </div>
+                </div>
+                <div  class="right"></div>
+            </div>
+        </div>
+        <div class="product-slide-box" style="display:none;">
+            <div class="product-carsous w980 carsous " >
+                <div  class="left"></div>
+                <div  class="center">
+                    <ul class="olist">
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">1111111111杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">2222杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">3333杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">4444杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">5555杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">666杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:;" target="_blank" class="linkimg"><img src="http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png" /></a>
+                            <p>
+                                <a href="">777杭州供电公司、宁波供电公司DMS管理系统</a>
+                            </p>
+                        </li>
+
+                    </ul>
+                    <div  class="scroll"> <span></span> </div>
+                </div>
+                <div  class="right"></div>
+            </div>
+        </div>
+        <div class="page-shadow"></div>
+    </div>
+    <!--企业资质结束-->
+    <!--企业文化开始-->
+    <div class="ln-harmony-culture p4">
+        <div class="ln-culture">
+            <div class="culture-title">
+                企业文化
+            </div>
+            <div class="culture-info w980 margin-auto" >
+                <p>
+                    昊美科技崇尚一种客户、股东、员工、合作伙伴多赢的企业文化。
+                </p>
+                <p>
+                    昊美科技信奉"追求 创新 超越 -- 让我们走得更近"赢得用户是企业生存的最大动力，走进，再走进用户。
+                </p>
+                <p>
+                    昊美科技追求“率真求实，和谐天成”，是贯穿客户、员工、合作伙伴、股东及一切关联方息息相关的高效、自然服务理念。
+                </p>
+            </div>
+            <!--<div class="center">
+                <div class="cultureone" data-stellar-background-ratio="0">
+                    <img src="img/pro/im/n1.png" alt=""/>
+                </div>
+                <div class="cultureone" data-stellar-background-ratio="0">
+                    <img src="img/pro/im/n2.png" alt=""/>
+                </div>
+                <div class="cultureone" data-stellar-background-ratio="0">
+                    <img src="img/pro/im/n3.png" alt=""/>
+                </div>
+                <div class="cultureone" data-stellar-background-ratio="0">
+                    <img src="img/pro/im/n4.png" alt=""/>
+                </div>
+                <div class="cultureone" data-stellar-background-ratio="0">
+                    <img src="img/pro/im/n5.png" alt=""/>
+                </div>
+
+            </div>-->
+
+        </div>
+        <div class="cultureshadow"></div>
+    </div>
+    <!--企业文化结束-->
+    <!--foot开始-->
+    <div class="ln-foot">
+        <div class="ln-footer w980 margin-auto">
+            <p>
+                <b class="ln-footlogo"></b>
+                杭州昊美科技有限公司 Copyright  All Right Reserved     www.harmony3.com (2005-2014)
+            </p>
+            <a class="ln-footback" href="">BACK</a>
+            <a class="ln-footop" href="">TOP</a>
+        </div>
+    </div>
+    <!--foot结束-->
+</div>
+   <script type="text/javascript" src="js/libs/require.js" data-main="js/config.js"></script>
+   <input type="hidden" id="router" value="harmon" />
+</body>
+</html>

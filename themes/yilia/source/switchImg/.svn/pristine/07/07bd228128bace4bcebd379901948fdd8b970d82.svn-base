@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<title>昊美科技</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="昊美科技 官网 ">
+		<meta name="keywords" content="昊美科技有限公司">
+		<meta name="author" content="昊美科技UED">
+		<meta name="robots" content="index,follow">
+		<meta name="application-name" content="bootcss.com">
+		<meta property="qc:admins" content="1603466166416277433363757477167" />
+
+		<!-- Site CSS -->
+		<link href="css/reset.css" rel="stylesheet">
+		
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="/assets/js/html5shiv.min.js?v=c8b9b3015b"></script>
+			<script src="/assets/js/respond.min.js?v=c8b9b3015b"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+		<div class="head">
+			这里是产品页面的头部
+		</div>
+		<script type="text/javascript" src="js/libs/require.js" data-main="js/config.js"></script>
+		<input type="hidden" id="router" value="product" />
+	</body>
+</html>

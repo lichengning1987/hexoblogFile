@@ -1,0 +1,9 @@
+{
+  "errorNo": 0,
+  "model": {
+    "accountList": [
+      {"name": "accountStock", "value": "上海A股", "text": "上海A股"},
+      {"name": "accountStock", "value": "深圳A股", "text": "深圳A股"}
+    ]
+  }
+}

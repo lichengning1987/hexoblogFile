@@ -1,0 +1,217 @@
+﻿{
+	"nav": {
+		"list": [
+            {
+                "title": "管理软件",
+                "listTitle":"配网管理工具软件",
+                "data":	[
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"11杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"22杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"333杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"444杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"444杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"444杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"444杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"444杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"444杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"444杭州供电公司、宁波供电公司DMS管理系统"
+                    }
+                ]
+            },
+            {
+                "title": "应用开发",
+                "listTitle":"配网业务应用集成开发",
+                "data":	[
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"555杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"666杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"777杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"888杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"999杭州供电公司、宁波供电公司DMS管理系统"
+                    }
+                ]
+            },
+            {
+                "title": "运行维护",
+                "listTitle":"电力设备及信息系统运行维护",
+                "data":	[
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"ddd杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"fff杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"ggg杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"hhh杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"jjj杭州供电公司、宁波供电公司DMS管理系统"
+                    }
+                ]
+            },
+            {
+                "title": "数据普查",
+                "listTitle":"电力（设施）普查及数据工程",
+                "data":	[
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    }
+                ]
+            },
+            {
+                "title": "业务咨询",
+                "listTitle":"配网规划设计及业务咨询",
+                "data":	[
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    }
+                ]
+            },
+            {
+                "title": "检测通讯",
+                "listTitle":"配网监测及通信装置",
+                "data":	[
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    },
+                    {
+                        "url":		"javascript:void(0)",
+                        "imgurl":  "http://demo.lanrenzhijia.com/2014/pic0607/images/b1.png",
+                        "name": 	"杭州供电公司、宁波供电公司DMS管理系统"
+                    }
+                ]
+            }
+		]
+	}
+}

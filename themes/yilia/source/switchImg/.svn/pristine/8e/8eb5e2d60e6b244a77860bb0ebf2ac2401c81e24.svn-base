@@ -1,0 +1,110 @@
+define(['jquery'], function ($) {
+
+	function maskload(){	
+	    var containerW=$(".elegant").width();
+	    var containerH=$(".elegant").height();
+		//data 加载
+		$.ajax({
+	        type:"post",  
+	        url: "js/models/humanResourse/data.json",     
+	        success: function(data){   
+	        	var person=data.model.accountList;	
+	        	$(".elegant").html('');        	
+	        	for(var i=0;i<person.length;i++){
+	        		var rand1=10*Math.random(),
+	        			rand2=10*Math.random(),
+		        		simbol1=1,
+		        		simbol2=1;
+		        	if(parseInt(rand1%2)==0)
+		        		simbol1=(-1);
+		        	if(parseInt(rand2%2)==0)
+		        		simbol2=(-1);
+	        		var lis='<li class="mask" style="top:'+simbol1*9999*Math.random()+'px;left:'+simbol2*9999*Math.random()+'px" onmousedown="$(this,event)" id="mask'+i+'" mark="'+person[i].url+'"><span>'+person[i].name+'</span></li>';
+					$(".elegant").append(lis);
+	        	}
+	    		$(".elegant li").each(function(){
+	    			$(this).animate({
+	    				left:Math.random()*containerW-30,
+	    				top:Math.random()*containerH-30
+	    			},1000);
+	    		});
+
+	        	//拖动
+				var move = false; //移动标记
+			    var rawx, rawy,topy,leftx,isMove=false; //鼠标离控件左上角的相对位置
+			    $(".mask").mousedown(function(e) {
+			    	topy=Number($(this).css("top").substr(0,$(this).css("top").length-2));
+			        leftx=Number($(this).css("left").substr(0,$(this).css("left").length-2));
+					isMove=true;
+			        move = true;
+			        rawx = e.pageX - parseInt($(this).css("left"));
+			        rawy = e.pageY - parseInt($(this).css("top"));
+			        $(this).fadeTo(20, 0.5); //点击后开始拖动并透明显示
+			    }).mousemove(function(e) {
+			        if (move) {
+			            var x = e.pageX - rawx; //移动时根据鼠标位置计算控件左上角的绝对位置
+			            var y = e.pageY - rawy;	
+			            if(window.attachEvent){   
+					       
+					    }	           
+			            if(x<=containerW-50 && y<=containerH-50){
+			            	$(this).css({top: y,left: x}); //控件新位置	 
+			            }
+			            if(Math.abs(topy-y)>2 || Math.abs(leftx-x)>2){
+			            	isMove=false;
+			            }	            	           
+			        }		        
+			     }).mouseup(function() {
+			     	$(this).css({"cursor":"pointer"});
+			     	 //点击放大查看
+			        if(isMove){
+			        	var that=$(this);
+						if(that.hasClass("mask")){
+							$(this).css({"background":"url("+that.attr("mark")+") no-repeat 0 0","background-size":"100%"});
+							that.animate({
+								left:0.5*containerW-50,
+								top:0.5*containerH-50,
+								width:200,
+								height:200,
+								borderRadius:100
+							},600);
+							that.addClass("mask-clicked").removeClass("mask");	
+							$(".mask-clicked").css({"background":"url("+that.attr("mark")+") no-repeat 0 0"});
+							that.siblings().each(function(){
+								if($(this).hasClass("mask-clicked")){
+									$(this).css({"background":"none","background-color":"#65455a"});
+									$(this).animate({
+										left:Math.random()*containerW,
+										top:Math.random()*containerH,
+										width:70,
+										height:70,
+										borderRadius:35
+									},600);
+									$(this).addClass("mask").removeClass("mask-clicked");
+								}				
+							});						
+						}else if(that.hasClass("mask-clicked")){
+							$(this).css({"background":"none","background-color":"#65455a"});
+							that.animate({
+								left:Math.random()*containerW,
+								top:Math.random()*containerH,
+								width:70,
+								height:70,
+								borderRadius:35
+							},600);
+							that.addClass("mask").removeClass("mask-clicked");
+						}
+			        }
+			        move=false;
+			        isMove=false;
+			        $(this).fadeTo("fast", 1); 	       
+			    }); 
+	        }
+	    });
+	}
+	maskload();//默认加载
+	$(window).resize(function(){
+		$(".elegant").html('');
+		maskload();//改变窗口重新加载
+	});
+});

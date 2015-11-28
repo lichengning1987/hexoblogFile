@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>产品案例</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="昊美科技 官网 ">
+    <meta name="keywords" content="昊美科技有限公司">
+    <meta name="author" content="昊美科技UED">
+    <meta name="robots" content="index,follow">
+    <meta name="application-name" content="bootcss.com">
+    <meta property="qc:admins" content="1603466166416277433363757477167" />
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/layview.css"/>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/assets/js/html5shiv.min.js?v=c8b9b3015b"></script>
+    <script src="js/plug/respond.min.js?v=c8b9b3015b"></script>
+    <![endif]-->
+</head>
+<body>
+   <div class="ln-wrap">
+       <div class="ln-header ln-header-product">
+            <div class="nav">
+                <div class="navbox w980 margin-auto">
+                    <span class="logo">
+                        Harmony
+                    </span>
+                    <ul class="navbar clearfix">
+                    </ul>
+                    <div class="navline"></div>
+                </div>
+            </div>
+       </div>
+       <div class="ln-product-box">
+
+       </div>
+       <div class="ln-foot">
+            <div class="ln-footer w980 margin-auto">
+                <p>
+                   <b class="ln-footlogo"></b>
+                    杭州昊美科技有限公司 Copyright  All Right Reserved     www.harmony3.com (2005-2014)
+                </p>
+                <a class="ln-footback" href="">BACK</a>
+                <a class="ln-footop slogan" href="javascript:;">TOP</a>
+            </div>
+       </div>
+   </div>
+   <script type="text/javascript" src="js/libs/require.js" data-main="js/config.js"></script>
+   <input type="hidden" id="router" value="productD" />
+</body>
+</html>

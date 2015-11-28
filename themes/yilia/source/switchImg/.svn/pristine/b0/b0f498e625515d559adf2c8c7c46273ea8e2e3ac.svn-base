@@ -1,0 +1,84 @@
+define(['nav', 'mousewheel','sliderbar'], function () {
+
+	/**
+	 * init
+	 */
+	var begin = {};
+
+	begin.init = function () {
+        this.carinit();
+        this.navinit();
+	};
+    //初始化图片切换
+    begin.carinit = function () {
+
+        $(".carsous").each(function(index,item){
+            $(item).slbar();
+        })
+    };
+
+    begin.navinit = function () {
+        var ofistleft=parseInt($(".navline").css("left"));
+        var owidth=$(".navbar li").eq(0).width()+parseInt($(".navbar li").eq(0).css("marginLeft"));
+        var ohInfoTop=$(".ln-product-box").offset().top;
+        $('.nav').smint({
+            'scrollSpeed' : 1000,
+            'special' : true
+        });
+
+        $(".product-box").eq(0).append($('<div class="tpshadow"></div>'));
+
+        $(window).scroll(function(){
+            var oscrolltop= $(window).scrollTop();
+            if( oscrolltop> 0){
+                $(".harmony-info").removeClass("margintp50");
+            }else{
+                $(".harmony-info").addClass("margintp50");
+            }
+
+            if(oscrolltop >ohInfoTop-60 ){
+                $(".nav").addClass("nav-change");
+            }else{
+                $(".nav").removeClass("nav-change");
+            }
+
+        })
+
+        $(window).resize(function(){
+            $(".navline").removeAttr("style");
+            ofistleft=parseInt($(".navline").css("left"));
+            owidth=$(".navbar li").eq(0).width()+parseInt($(".navbar li").eq(0).css("marginLeft"));
+            var oindex=$(".navbar li").index($(".navbar").find(".cur"));
+            $(".navline").css({
+                "left":ofistleft + (oindex*owidth)+"px"
+            });
+            $(".navline").show();
+        })
+        $(document).on("click",function(e){
+            e.preventDefault();
+        })
+
+
+
+        $(".navbar li").on("click",function(e){
+            e.preventDefault();
+            var index=$(this).index();
+            $(".navbar li").removeClass("cur");
+            $(".nav").data("clicks","true");
+            $(this).addClass("cur");
+            $(".navline").animate({
+                "left":ofistleft + (index*owidth)+"px"
+            },100);
+            $(".navline").show();
+        });
+
+
+    };
+
+	return {
+		begin: begin
+	};
+
+
+
+});

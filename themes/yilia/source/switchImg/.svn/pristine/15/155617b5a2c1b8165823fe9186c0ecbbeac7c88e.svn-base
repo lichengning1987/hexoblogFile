@@ -1,0 +1,114 @@
+﻿{
+	"banner": {
+		"list": [
+			"img/index/banner1.jpg",
+			"img/index/banner2.jpg",
+			"img/index/banner3.jpg"
+		]
+	},
+	"nav": {
+		"list": [
+			{
+				"title": "关于昊美",
+				"data":	[
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"企业介绍"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"发展历程"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"企业资质"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"企业文化"
+					}
+				]
+			},
+			{
+				"title": "产品案例",
+				"data":	[
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"配网管理工具软件"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"配网业务应用集成开发"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"电力设备及信息系统运行维护"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"电力（设施）普查及数据工程"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"配网规划设计及业务咨询"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"配网监测及通信装置"
+					}
+				]
+			},
+			{
+				"title": "其他产业",
+				"data":	[
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"杭州端微电子商务有限公司"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"杭州昊美星远科技有限公司"
+					}
+				]
+			},
+			{
+				"title": "热点新闻",
+				"data":	[
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"新闻头条"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"企业新闻"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"行业热点"
+					}
+				]
+			},
+			{
+				"title": "人才招聘",
+				"data":	[
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"人才战略"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"员工发展"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"员工风采"
+					},
+					{
+						"url":		"javascript:void(0)",
+						"name": 	"人才招聘"
+					}
+				]
+			}
+		]
+	}
+}

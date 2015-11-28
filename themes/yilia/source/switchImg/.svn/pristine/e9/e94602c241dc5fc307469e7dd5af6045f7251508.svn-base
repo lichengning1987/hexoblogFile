@@ -1,0 +1,143 @@
+define(['imgFix','nav', 'mousewheel','sliderbar'], function () {
+
+	/**
+	 * init
+	 */
+	var begin = {};
+
+	begin.init = function () {
+        this.Courseinit();
+        this.carinit();
+        this.navinit();
+        this.tabslide();
+        this.imgAttach();
+	};
+    //图片切换
+    begin.carinit = function () {
+        $(".carsous").each(function(index,item){
+            $(item).slbar();
+        })
+    };
+    //导航方法
+    begin.navinit = function () {
+        var ofistleft=parseInt($(".navline").css("left"));
+        var owidth=$(".navbar li").eq(0).width()+parseInt($(".navbar li").eq(0).css("marginLeft"));
+        var ohInfoTop=288,ohCourseTop=$(".ln-harmony-Course").offset().top,ohbusTop=$(".ln-busBox").offset().top,oharcourseTop=$(".ln-harmony-culture").offset().top,ofootop=$(".ln-foot").offset().top;
+        $('.nav').smint({
+            'scrollSpeed' : 1000,
+            'special' : true
+        });
+        $(".harmony-info").addClass("margintp50");
+        $(window).scroll(function(){
+            var oscrolltop= $(window).scrollTop();
+            if( oscrolltop> 0){
+                $(".harmony-info").removeClass("margintp50");
+            }else{
+                $(".harmony-info").addClass("margintp50");
+            }
+
+            if(oscrolltop >ohInfoTop-60 ){
+                $(".nav").addClass("nav-change");
+            }else{
+                $(".nav").removeClass("nav-change");
+            }
+
+        })
+
+       $(window).resize(function(){
+            $(".navline").removeAttr("style");
+            ofistleft=parseInt($(".navline").css("left"));
+            owidth=$(".navbar li").eq(0).width()+parseInt($(".navbar li").eq(0).css("marginLeft"));
+            var oindex=$(".navbar li").index($(".navbar").find(".cur"));
+            $(".navline").css({
+               "left":ofistleft + (oindex*owidth)+"px"
+            });
+           $(".navline").show();
+        })
+        $(document).on("click",function(e){
+           e.preventDefault();
+        })
+
+
+
+        $(".navbar li").on("click",function(e){
+            e.preventDefault();
+            var index=$(this).index();
+            $(".navbar li").removeClass("cur");
+            $(".nav").data("clicks","true");
+            $(this).addClass("cur");
+            $(".navline").animate({
+                "left":ofistleft + (index*owidth)+"px"
+            },100);
+            $(".navline").show();
+        });
+
+    };
+
+    //历程图方法
+    begin.Courseinit = function () {
+        $(".Course-yearbox").each(function(index,item){
+            $(item).find(".Course-monthlist li").each(function(indexs,items){
+                var otops=30;
+                if(indexs==0){
+                    otops = 0;
+                }
+                $(items).css({
+                    "marginTop":-otops+"px"
+                })
+            })
+            var oheight=$(item).find(".Course-month").height()+50;
+            $(item).find(".yearline").height(oheight);
+            $(item).find(".Course-year").on("click",function(e){
+                e.preventDefault();
+                $(item).find(".Course-yearinfo").slideToggle(1000,function(){
+                    var odisplay=$(this).css("display");
+                    if(odisplay == "none"){
+                        $(e.currentTarget).find(".icon-year").removeClass("icon-arrowdown").addClass("icon-arrowup");
+                    }else{
+                        $(e.currentTarget).find(".icon-year").removeClass("icon-arrowup").addClass("icon-arrowdown");
+                    }
+                });
+            })
+        })
+
+    };
+
+    //企业资质切换
+    begin.tabslide = function () {
+        $(".product-slide-box").hide();
+        $(".product-slide-box").eq(0).show();
+        var ohoverline=parseInt($(".qua-hoverline").css("left"));
+        $(".list-qua li").on("click",function(e){
+            e.preventDefault();
+            var index=$(this).index();
+            $(".list-qua li").removeClass("cur");
+            $(this).addClass("cur");
+            $(".qua-hoverline").animate({
+                left: ohoverline+index*($(this).width()+parseInt($(this).css("marginRight")))+"px"
+            })
+            $(".product-slide-box").hide();
+            $(".product-slide-box").eq(index).show();
+
+        })
+    }
+
+    //视差滚动插件
+    begin.imgAttach = function(){
+
+        $.stellar({
+            horizontalScrolling: false,
+            verticalOffset: 10,
+            responsive: true
+        });
+
+    }
+
+
+	return {
+		begin: begin
+	};
+
+
+
+});

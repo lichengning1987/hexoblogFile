@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+<title>人力资源</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="昊美科技 官网 ">
+	<meta name="keywords" content="昊美科技有限公司">
+	<meta name="author" content="昊美科技UED">
+	<meta name="robots" content="index,follow">
+	<meta name="application-name" content="bootcss.com">
+	<meta property="qc:admins" content="1603466166416277433363757477167" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="js/libs/mcustomscrollbar/jquery.mCustomScrollbar.css"/>
+	<link rel="stylesheet" type="text/css" href="css/employee.css">
+</head>
+<body>
+	<div class="employee">
+		<div class="employee-menu">
+			<dl>
+				<dd>Harmony</dd>
+				<dt>人才战略</dt>
+				<dt>员工发展</dt>
+				<dt>员工风采</dt>
+				<dt>人才招聘</dt>
+				<dt class="menu-bottom"></dt>				
+			</dl>			
+		</div>
+		<div class="talent-strategy scroll-index">
+			<div class="bg"></div>
+			<div class="banner"></div>
+		</div>
+		<div class="employee-development scroll-index">
+			<div class="title">员工发展</div>
+			<div class="content">
+				<div class="office">				
+					<ul class="clearfix">
+						<li class="content-title">职位分类</li>
+						<li>
+							<span class="technology-bg"></span>
+							<span class="class-name">技术类</span>
+							<ul>
+								<li>软件开发工程师</li>
+								<li>测试工程师</li>
+								<li>产品经理</li>
+								<li>硬件工程师</li>
+								<li>UI设计师</li>
+								<li>前端开发工程师</li>
+								<li class="technology-bg"></li>
+							</ul>
+						</li>
+						<li>
+							<span class="engineering-bg"></span>
+							<span class="class-name">工程类</span>
+							<ul>
+								<li>实施工程师</li>
+								<li>技术支持工程师</li>
+								<li>项目经理</li>
+								<li class="engineering-bg"></li>
+							</ul>
+						</li>
+						<li>
+							<span class="sales-bg"></span>
+							<span class="class-name">销售类</span>
+							<ul>
+								<li>销售工程师</li>
+								<li>区域销售经理</li>
+								<li>业务咨询师</li>
+								<li class="sales-bg"></li>
+							</ul>
+						</li>
+						<li>
+							<span class="functional-bg"></span>
+							<span class="class-name">职能类</span>
+							<ul>
+								<li>行政</li>
+								<li>人力资源</li>
+								<li>财务</li>
+								<li>商务</li>
+								<li class="functional-bg"></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="roadmap">
+					<span class="content-line"></span>
+					<ul class="clearfix">
+						<li class="content-title">发展路线</li>
+					</ul>
+				</div>
+				<div class="office trainning">
+					<span class="content-line"></span>					
+					<ul class="clearfix">
+						<li class="content-title">培训体系</li>
+						<li class="bg"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="employee-elegant scroll-index">
+			<span class="title">员工风采</span>
+			<ul class="elegant">
+			</ul>
+		</div>
+		<div class="employee-recruitment scroll-index">
+			<span class="title">人才招聘</span>
+			<span class="content-line"></span>
+			<ul class="clearfix oneTab">
+				<li>
+					<label class="clicked-technology-bg"></label>
+					<span class="class-name colorRed">技术类</span>					
+				</li>
+				<li>
+					<label class="engineering-bg"></label>
+					<span class="class-name">工程类</span>					
+				</li>
+				<li>
+					<label class="sales-bg"></label>
+					<span class="class-name">销售类</span>					
+				</li>
+				<li>
+					<label class="functional-bg"></label>
+					<span class="class-name">职能类</span>					
+				</li>
+				<li class="bottom-bar"></bottom>
+			</ul>
+			<span class="content-line"></span>
+			<div class="recruitment-submenus">
+				<div class="recruitment-submenu default-recruitment">
+					<div class="submenu">
+						<ul>
+							<li class="recruitment-focus">软件开发工程师111</li>
+							<li>测试工程师</li>
+							<li>产品经理</li>
+							<li>硬件工程师</li>
+							<li>UI设计师</li>
+							<li>前端开发工程师</li>							
+						</ul>				
+					</div>
+					
+				</div>
+				<div class="recruitment-submenu" style="display:none;">
+					<div class="submenu ">
+						<ul>
+							<li class="recruitment-focus">软件开发工程师222</li>
+							<li>测试工程师</li>
+							<li>产品经理</li>
+							<li>硬件工程师</li>
+							<li>UI设计师</li>
+							<li>前端开发工程师</li>
+						</ul>					
+					</div>
+				</div>
+				<div class="recruitment-submenu" style="display:none;">
+					<div class="submenu">
+						<ul>
+							<li class="recruitment-focus">软件开发工程师333</li>
+							<li>测试工程师</li>
+							<li>产品经理</li>
+							<li>硬件工程师</li>
+							<li>UI设计师</li>
+							<li>前端开发工程师</li>
+						</ul>
+					</div>
+				</div>
+				<div class="recruitment-submenu" style="display:none;">
+					<div class="submenu">
+						<ul>
+							<li class="recruitment-focus">软件开发工程师444</li>
+							<li>测试工程师</li>
+							<li>产品经理</li>
+							<li>硬件工程师</li>
+							<li>UI设计师</li>
+							<li>前端开发工程师</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="send-recruitment-top"></div>
+			<div class="send-recruitment-outer">
+				<div class="send-recruitment">
+					<span class="email-to"></span>
+					<p>简历请发送至</p>
+					<p class="company-email">hr@harmomy3.com</p>
+				</div>
+			</div>
+			<div class="email-doc" id="email-doc" style="display: none;">
+				<P class="email-doc-title">简历投递</p>
+				<P>请上传您的简历：</p>
+				<input type="file" size="125" value="选择附件"/>
+				<label>
+					<input type="button" value="取消"/>
+					<input type="button" value="上传"/>
+					<input type="button" class="closeEmail" value="关闭"/>
+				</label>
+				<P>附：简历名称格式按如下要求（学历+学校+专业+姓名+应聘岗位）</p>
+			</div>
+		</div>
+		<div class="copy-right-outer scroll-index">
+			<p>
+				<span class="company-logo"></span>
+				<em>杭州昊美科技有限公司</em><span>Copyright All Right Reserved</span><span>www.harmony3.com(2005-2014)</span>
+			</p>
+		</div>
+		<div class="scroll-top">BACK TOP</div>
+	</div>
+<script type="text/javascript" src="js/libs/require.js" data-main="js/models/humanResourse/humanResourse.js"></script>
+</body>
+</html>

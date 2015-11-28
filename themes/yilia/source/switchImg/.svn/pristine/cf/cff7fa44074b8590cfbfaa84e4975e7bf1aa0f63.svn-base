@@ -1,0 +1,225 @@
+
+/*CSS reset*/
+body, div, p, ul, ol, li, dl, dt, dd, fieldset, legend, form, hr, table, h1, h2, h3, h4, h5, h6, address, blockquote, dir, td, th, button, b {margin:0; padding:0;color:#333;font: 12px/1  "Microsoft Yahei", "Arial", "Verda", "tahoma", 'Helvetica', "\5b8b\4f53", sans-serif;}
+ul, ol {list-style:none;}
+fieldset, legend, img {border:none;}
+legend {display:none;}
+em {font-style:normal;}
+h1, h2, h3, h4, h5, h6, b {font-weight:normal;}
+table {border-collapse:collapse; border-spacing:0;}
+button {cursor:pointer;}
+textarea {resize:none;}
+i{ font-style: normal;}
+a{text-decoration: none;color: #585858;}
+.clearfix:after {clear:both; content:"."; display:block; height:0; line-height:0; font-size:0;  visibility:hidden; }
+.clearfix { *zoom:1; }
+.icon{ display: inline-block; overflow: hidden;margin-right: 3px; background: url(../img/all.png) no-repeat 0 0; vertical-align: middle;}
+.hide{display: none;}
+h2{font:400 20px/normal 'Microsoft Yahei';}
+.must{color: red;}
+.controlWrap .borderRed,.controlWrap .borderRed:focus,.borderRed,.travelPlaces.borderRed{ border-color: #B94A48;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;}
+body .row .btn,.btn{outline: none;}
+.btn:focus{outline: none;}
+.center{ width: 980px; margin: 0 auto;  /*background-color: #ccc;*/}
+html{
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    width:100%;
+    height:100%;
+}
+.w1000{width:1000px;}
+.w980{width:980px;}
+.w900{width:900px;}
+.margin-auto{margin:0 auto;}
+.margintp50{margin-top:-50px;}
+.box-shadow {
+    box-shadow: 0px 8px 8px #DCD5D1 inset;
+}
+.tpshadow{
+    background:url("../img/pro/box-shadow.png") repeat-x;width:100%; position:absolute;left:0px;top:0px;
+    height:12px;
+}
+.cultureshadow{
+    background:url("../img/pro/culshadow.png") repeat-x;width:100%; position:absolute;left:0px;top:0px;
+    height:13px;
+}
+
+body{
+    font-family: "Microsoft Yahei", "Arial", "Verda", "tahoma";
+}
+
+/*header*/
+.ln-header{}
+.ln-header .nav{background:url("../img/pro/NAVS.png") repeat-x;color:#fff;position:fixed;left:0px;top:0px;width:100%;z-index:444;height:50px;box-shadow: 0 2px 50px rgba(0,0,0,.5);}
+.ln-header .nav-change{
+
+    background-color:#000;opacity:0.8;
+    -webkit-transition:  background-color 0.5s ease 0.2s;
+    -moz-transition:  background-color 0.5s ease 0.2s;
+    -o-transition:  background-color 0.5s ease 0.2s;
+    transition: background-color 0.5s ease 0.2s;
+    height:50px;
+}
+.ln-header .firstlogo{color:#fff;font-size:26px;line-height: 46px;display:inline;float:left;margin-right:16px;}
+.ln-header .navbar{}
+.ln-header .navbox{position:relative;height:50px;}
+.ln-header .navbar li{float:left;line-height: 48px;font-size:18px;width:90px;margin-left:50px;text-align:center;}
+.ln-header .navbar li a{color:#fff;display:block;}
+.ln-header .navline{width:90px;height:2px;background:#e60000;position:absolute;top:48px;left:182px;display:none;
+   /* -webkit-transition:  all 0.1s linear;
+    -moz-transition:  all 0.1s linear;
+    -o-transition:  all 0.1s linear;
+    transition: all 0.1s linear;*/}
+.ln-header .navbox .logo{background:url("../img/pro/harmonylogo.png") no-repeat;width:107px;height:25px;display:block;text-indent:-99999px;float:left;margin:10px;}
+
+
+.ln-header-product{background:url("../img/pro/product-big_01.jpg") no-repeat center top;width:100%;height:801px;}
+.ln-header-other{background:url("../img/pro/otherimg_01_01.jpg") no-repeat center top;width:100%;height:800px;}
+.ln-header-harmony{background:url("../img/pro/harmonyimg_01.jpg") no-repeat center top;height:800px;}
+@media (max-height:1080px){
+    .ln-header-product{background:url("../img/pro/product-big_01.jpg") no-repeat center top;width:100%;height:801px;}
+    .ln-header-other{background:url("../img/pro/otherimg_01_01.jpg") no-repeat center top;width:100%;height:800px;}
+    .ln-header-harmony{background:url("../img/pro/harmonyimg_01.jpg") no-repeat center top;width:100%;height:800px;}
+}
+@media (max-height:900px){
+    .ln-header-product,.ln-header-other{background-position:50% -100px;height:700px;}
+    .ln-header-harmony{background-position:center top;height:800px;}
+}
+@media (max-height:768px){
+    .ln-header-product{background:url("../img/pro/product-small_01.jpg") no-repeat center top;width:100%;height:520px;background-position:50% -50px;}
+    .ln-header-other{background:url("../img/pro/otherimg_01small_01.jpg") no-repeat center top;width:100%;height:519px;background-position:50% -50px;}
+/*    .ln-header-harmony{background:url("../img/pro/harmonyimg_01small.jpg") no-repeat center top;height:569px;}*/
+    .ln-header .firstlogo{margin-left:100px;}
+    .ln-header .navbox  .logo{margin:10px 20px 10px 100px;}
+    .ln-header .navbar li{margin-left:12px;}
+    .ln-header .navline{left:240px;}
+}
+
+/*foot*/
+.ln-foot{
+    background:#fff;height:188px;
+}
+.ln-footer{ position:relative;color:#caad9d;}
+.ln-foot p{ font-family: "Microsoft Yahei", "Arial", "Verda", "tahoma";position:absolute;left:0px;top:130px;}
+.ln-footlogo{background:url("../img/pro/harmonyLog.png") no-repeat;width:15px;height:17px;display:inline-block;zoom:1;vertical-align: middle;}
+.ln-footback{position:absolute;right:50px;top:130px;color:#caad9d;}
+.ln-footop{position:absolute;right:15px;top:130px;color:#caad9d;}
+
+/*contents*/
+.product-box{background-color:#f5f1ef;position:relative;padding-bottom:20px;}
+.product-title{text-align: center;border-bottom:2px solid #fff;}
+.product-title .icon{display:inline-block;vertical-align: middle;background:url("../img/pro/product-sprits.png") no-repeat;width:90px;height:90px;}
+.product-title .icon-manage{background-position:-3px -5px;}
+.product-title .icon-business{background-position:-103px -5px;}
+.product-title .icon-equipment{background-position:-202px -5px;}
+.product-title .icon-General{background-position:-297px -5px;}
+.product-title .icon-Distribution{background-position:-401px -5px;}
+.product-title .icon-Monitoring{background-position:-510px -5px;}
+.product-title .title{line-height: 66px;color:#c19e8b;font-size:26px;}
+.product-title .icon-view{padding-top:20px;}
+.product-slide-box{background-color:#fff;padding-bottom:40px;}
+.product-shadow{background:url("../img/pro/product-bottomshadow_03.png") repeat-x;height:42px;position:absolute;left:0px;bottom:-13px;width:100%;z-index:222;}
+.product-carsous{background:#fff;position:relative;height:380px;margin:30px auto 0px auto;}
+.product-carsous ul{}
+.product-carsous li{width:170px;float:left;display:inline;zoom:1;}
+.product-carsous li .linkimg{width:170px;height:200px;display:block;}
+.product-carsous li .linkimg img{width:170px;height:200px;}
+.product-carsous li p{line-height: 20px;margin:15px 0 0 0;height:40px;overflow:hidden;}
+.product-overlay{width:740px;padding-top:60px;margin:0 auto;}
+.product-info{padding:20px 0 20px 0;border-bottom:1px solid #fff;}
+.product-info p{line-height: 30px;text-indent:2em;font-size:12px;color:#666;}
+
+
+/*slider自定义图片切换*/
+.carsous .left { width:65px; height:65px; float:left; cursor:pointer;background:url("../img/pro/product-sprits.png") no-repeat -16px -113px; margin-top:140px;position:absolute;left:40px;top:0px;}
+.carsous .right{ width:65px; height:65px; float:left; cursor:pointer;background:url("../img/pro/product-sprits.png") no-repeat -108px -113px;  margin-top:140px;position:absolute;right:40px;top:0px;}
+.carsous .center { width:760px; height:367px;  overflow:hidden; position:relative; margin:0px auto;}
+.carsous .center ul { width:auto;  top:60px; left:0px; position:absolute; overflow:hidden;}
+.carsous .center li { float:left;padding:0px 10px; position:relative;}
+.carsous .center li img { width:170px; height:200px;}
+.carsous .scroll { width:760px; height:6px; left:0px; bottom:8px; cursor:pointer; position:absolute; background:#e6e2e0; border-radius:4px;-moz-border-radius:4px;-webkit-border-radius: 4px;}
+.carsous .scroll span { width:48px; height:6px; left:0px; bottom:0px; cursor:pointer; position:absolute; background:#d3cdcb;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius: 4px;height:6px; }
+
+
+
+/*关于昊美*/
+/*企业介绍开始*/
+.harmony-info{height:509px;display:table;position:relative;top:288px;}
+.harmonybox{display: table-cell;vertical-align: middle;}
+.harmonybox p{line-height: 20px;color:#643629;text-indent:2em;margin-bottom:25px;font-size:14px;}
+.harmonybox p em{font-weight:700;}
+/*企业文化开始*/
+.ln-harmony-culture{background:url("../img/pro/ziwenhua_03.jpg") no-repeat center top;height:1167px;position:relative;}
+/*.ln-harmony-culture{background:url("../img/pro/culha_02.jpg") no-repeat center top;height:1167px;position:relative;background-attachment: fixed;}*/
+/*.ln-culture{background:url("../img/pro/fcent_02.jpg") repeat-x center top;}*/
+.culture-title{height:70px;line-height: 70px;padding-top:20px;font-size:26px;color:#c19e8b;text-align: center;}
+.culture-info{height:110px;padding-top:20px;}
+.culture-info p{line-height: 30px;text-align:center;color:#666;font-size:14px;}
+.culture-fonts{background:url("../img/pro/ff2.png") no-repeat center center;width:980px;height:890px;border-radius:12px;}
+
+.cultureone{background:url("../img/pro/fcent_02.jpg") no-repeat center center;border-radius:12px;margin-top:10px;}
+
+/*企业资质开始*/
+.ln-busBox{background:#f5f1ef url("../img/pro/bottomshadow_02.png") repeat-x left top;}
+.ln-harmony-qualification{height:128px;border-bottom:2px solid #fff;}
+.qua-nav{position:relative;height:128px;}
+.list-qua{padding-left:20px;padding-top:8px;}
+.list-qua li{float:left;margin-right:45px;display:inline;}
+.list-qua li.cur p{color:#e60000;}
+.list-qua li .icon-qua{width:85px;height:85px;background:url("../img/pro/toumingss.png") no-repeat -8px -4px; cursor:pointer;}
+.list-qua li .icon-hover1{background-position:-8px -4px;}
+.list-qua li .icon-hover1:hover{background-position:-103px -4px;}
+.list-qua li.cur .icon-hover1{background-position:-103px -4px;}
+.list-qua li .icon-hover2{background-position:-289px -4px;}
+.list-qua li .icon-hover2:hover{background-position:-197px -4px;}
+.list-qua li.cur .icon-hover2{background-position:-197px -4px;}
+.list-qua li .icon-hover3{background-position:-383px -4px;}
+.list-qua li .icon-hover3:hover{background-position:-476px -4px;}
+.list-qua li.cur .icon-hover3{background-position:-476px -4px;}
+
+
+.list-qua li p{line-height: 20px;text-align: center;margin-top:5px;}
+.qua-hoverline{width:85px;background-color:#e60000;height:2px;position:absolute;bottom:-2px;left:20px;}
+.page-shadow{background:url("../img/pro/zibgs_02.jpg") repeat-x;height:35px;}
+.ln-busBox .carsous .center li{width:215px;overflow:hidden;padding:0 20px;}
+.ln-busBox .product-carsous li .linkimg{width:215px;height:295px;}
+.ln-busBox .carsous .center li img{width:215px;height:295px;}
+.ln-busBox .carsous .center ul{top:50px;}
+.ln-busBox .carsous .center{height:400px;}
+
+
+/*发展历程图*/
+.ln-harmony-Course{background:#f5f1ef url("../img/pro/bottomshadow_01.png") repeat-x left bottom;padding-bottom:20px;}
+.Course-title{background:url("../img/pro/harmonyrep_03.jpg") repeat-x;height:100px;line-height: 100px;text-align: center;font-size:26px;color:#c19e8b;}
+.Course-year{cursor:pointer;width:50px;height:50px;font-size:16px;background:url("../img/pro/icon-year.png") no-repeat;color:#e60000;text-align:center;display:inline-block;vertical-align: middle;}
+.Course-year .icon-year{margin: 5px 0 0 18px;background:url("../img/pro/icon-arrows.png") no-repeat;width:14px;height:6px;display:block;}
+.Course-year .icon-arrowdown{background-position:-1px -3px;}
+.Course-year .icon-arrowup{background-position:-23px -3px;}
+.Course-year span{display:block;padding-top:14px;}
+.Course-yearbox,.Course-lastpoint{position:relative;text-align:center;}
+.yearline{background:#fff;width:2px;display:inline-block;}
+.Course-yearinfo{position:relative;}
+.Course-month{position:absolute;left:0px;top:10px;}
+.Course-month li{width:460px;background:#fff;position:relative;}
+.Course-month li h4{line-height: 56px;font-size:16px;color:#e60000;}
+.Course-month li h4 em{font-size:36px;}
+.Course-month li img{width:460px;}
+.Course-month li .month-title{line-height: 20px;font-size:20px;padding-bottom:15px;color:#272727;}
+.Course-month li.month-left{text-align:right;}
+.Course-month li.month-right{position:relative;left:520px;text-align:left;}
+.Course-month li.month-left .point{position:absolute;right:-35px;top:25px;background:url("../img/pro/yuanpoint.png") no-repeat;width:10px;height:10px;}
+.Course-month li.month-right .point{position:absolute;left:-35px;top:25px;background:url("../img/pro/yuanpoint.png") no-repeat;width:10px;height:10px;}
+.Course-month li.month-left .icon-triangle{background:url("../img/pro/leftsan.jpg") no-repeat;width:12px;height:17px;display:block;position:absolute;right:-12px;top:21px;}
+.Course-month li.month-right .icon-triangle{background:url("../img/pro/rightsan.jpg") no-repeat;width:12px;height:17px;display:block;position:absolute;left:-12px;top:21px;}
+.Course-month li.month-left  h4{padding-right:15px;}
+.Course-month li.month-left  em{padding-right:10px;}
+.Course-month li.month-right  h4{padding-left:15px;}
+.Course-month li.month-right  em{padding-right:10px;}
+.Course-month li.month-left  .month-title{padding-right:15px;}
+.Course-month li.month-right  .month-title{padding-left:15px;}
+.Course-lastpoint{margin-top:-4px;}
+.Course-lastpoint .point{width:10px;height:10px;display:inline-block;vertical-align: middle;background:url("../img/pro/icon-white.png") no-repeat;}
+.Course-lastpoint .line{display:inline-block;width:2px;height:10px;background-color:#fff;}
+
+

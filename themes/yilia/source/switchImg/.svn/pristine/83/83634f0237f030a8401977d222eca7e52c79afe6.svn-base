@@ -1,0 +1,105 @@
+require.config({
+	baseUrl: 'js',
+	paths: {
+		jquery: 'libs/jquery-1.9.1.min',
+		jqueryUI: 'libs/jquery-ui.min',
+		mCustomScrollbar:'libs/mCustomScrollbar/jquery.mCustomScrollbar',
+      	masks:'models/humanResourse/mask',
+      	cascade:'models/humanResourse/cascade',
+      	scrollBar:'models/humanResourse/scrollbar'
+		/*,
+		text: 'libs/text',
+		tpl: '../tpl',
+		popup: '../popup'*/
+	},
+	shim: {
+		/*Framework7: {
+			exports: 'Framework7'
+		}*/
+	},
+	urlArgs: "v=" +  (new Date()).getTime()
+});
+
+require(['jquery'], function ($) {
+	$(document).ready(function(){
+		/* 各div高宽初始化 */
+		var tw=$(".talent-strategy").width(),
+			rw=$(".roadmap").width(),
+			ew=$(".employee-elegant").width();
+		$(".talent-strategy").height(tw*0.406);	
+		$(".roadmap").height(rw*0.5);
+		if(ew*0.406 < 410){
+			$(".employee-elegant").height(410);
+		}else{
+			$(".employee-elegant").height(ew*0.32);
+		}
+		$(".elegant").height($(".employee-elegant").height()-110);	
+		/* 鼠标滚动时顶部菜单栏横线移动 */
+		$(window).bind("scroll",function(){
+			var th=$(".talent-strategy").height()-100,
+				dh=$(".employee-development").height()+th-100,
+				eh=$(".employee-elegant").height()+dh-100,
+				rh=$(".employee-recruitment").height()+eh-100,
+				barW=$(".employee-menu dt").width()+50,
+				lftBar=barW;
+			if($(window).scrollTop()>=0 && $(window).scrollTop()<th){
+				lftBar=barW;				
+				$(".menu-bottom").animate({left:lftBar},200);
+			}else if($(window).scrollTop()>=th && $(window).scrollTop()<dh){	
+				lftBar=barW*2;
+				$(".menu-bottom").animate({left:lftBar},200);
+			}else if($(window).scrollTop()>=dh && $(window).scrollTop()<eh){
+				lftBar=barW*3;					
+				$(".menu-bottom").animate({left:lftBar},200);
+				/* 此处添加飞球 */
+				require(["masks"]);
+			}else{
+				lftBar=barW*4;
+				$(".menu-bottom").animate({left:lftBar},200);
+				/* 此处添加级联 */
+				require(["cascade"]);
+			}
+		    if ($(window).scrollTop()>100){
+		        $(".scroll-top").fadeIn(1500);
+		    }
+		    else{
+		        $(".scroll-top").fadeOut(1500);
+		    }
+		});
+		/* 返回顶部 */
+		$(".scroll-top").click(function(){
+			$('body,html').animate({scrollTop:0},500);
+            return false;
+        });
+        /* 菜单下面横线动画 */
+		$(".employee-menu dt").on("click",function(){
+			var index=$(this).index();
+			var menuBar=($(this).width()+50)*index;
+			$(".menu-bottom").animate({left:menuBar});
+			$('body,html').animate({scrollTop:$(".scroll-index").eq(index-1).offset().top},500);
+		});
+		/* 简历发送 */
+		$(".email-to").click(function(){
+			$(".email-doc").show();
+		});
+		/* 关闭简历发送窗口 */
+		$(".closeEmail").click(function(){
+			$(this).closest(".email-doc").fadeOut(500);
+		});
+	});
+	/* 窗口改变大小时，div相应改变高度和宽度 */
+	$(window).resize(function(){
+		var tw=$(".talent-strategy").width(),
+			rw=$(".roadmap").width(),
+			ew=$(".employee-elegant").width();
+		$(".talent-strategy").height(tw*0.406);	
+		$(".roadmap").height(rw*0.5);
+		if(ew*0.406 < 410){
+			$(".employee-elegant").height(410);
+		}else{
+			$(".employee-elegant").height(ew*0.32);
+		}
+		$(".elegant").height($(".employee-elegant").height()-110);		
+	});
+	
+});

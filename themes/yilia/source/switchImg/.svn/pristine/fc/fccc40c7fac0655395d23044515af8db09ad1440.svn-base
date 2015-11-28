@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>关于昊美</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="昊美科技 官网 ">
+    <meta name="keywords" content="昊美科技有限公司">
+    <meta name="author" content="昊美科技UED">
+    <meta name="robots" content="index,follow">
+    <meta name="application-name" content="bootcss.com">
+    <meta property="qc:admins" content="1603466166416277433363757477167" />
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/layview.css"/>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/assets/js/html5shiv.min.js?v=c8b9b3015b"></script>
+    <script src="js/plug/respond.min.js?v=c8b9b3015b"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="ln-wrap">
+    <div class="ln-header ln-header-harmony">
+        <!--导航开始-->
+        <div class="nav">
+            <div class="navbox w980 margin-auto">
+               <span class="logo">
+                  Harmony
+                </span>
+                <ul class="navbar fl clearfix">
+
+                </ul>
+                <div class="navline"></div>
+            </div>
+        </div>
+        <!--导航结束-->
+        <!--企业介绍开始-->
+        <div class="harmony-info w900 margin-auto p1">
+            <div class="harmonybox">
+
+            </div>
+        </div>
+        <!--企业介绍开始-->
+    </div>
+    <!--发展历程开始-->
+    <div class="ln-harmony-Course p2">
+        <div class="Course-title">
+            发展历程
+        </div>
+        <div class="Course-box w980 margin-auto" >
+           <!-- <div class="Course-yearbox">
+                <div class="Course-year">
+                    <span>2013</span>
+                    <b class="icon-year icon-arrowdown"></b>
+                </div>
+                <div class="Course-yearinfo">
+                    <div class="yearline">
+                    </div>
+                    <div class="Course-month">
+                        <ul class="Course-monthlist">
+                            <li class="month-left">
+                                <h4>
+                                    <em>06</em>月
+                                </h4>
+                                <p class="month-title">
+                                    需求分析技能训练营
+                                </p>
+                                <b class="point">
+                                </b>
+                                <b class="icon-triangle">
+
+                                </b>
+                                <img src="img/pro/ff.png" alt=""/>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="Course-lastpoint">
+                <b class="line"></b>
+            </div>-->
+
+         </div>
+    </div>
+    <!--发展历程结束-->
+    <!--企业资质开始-->
+    <div class="ln-busBox p3">
+        <div class="product-title">
+            <span class="title">企业资质</span>
+        </div>
+        <div class="ln-harmony-qualification">
+             <div class="qua-nav w980 margin-auto">
+            <ul class="list-qua clearfix">
+
+            </ul>
+            <div class="qua-hoverline"></div>
+        </div>
+        </div>
+        <div class="product-slide-box w980 margin-auto" >
+
+        </div>
+
+
+    </div>
+    <!--企业资质结束-->
+    <!--企业文化开始-->
+    <div class="ln-harmony-culture p4">
+        <div class="ln-culture">
+            <div class="culture-title">
+                企业文化
+            </div>
+            <div class="culture-info w980 margin-auto" >
+                <p>
+                    昊美科技崇尚一种客户、股东、员工、合作伙伴多赢的企业文化。
+                </p>
+                <p>
+                    昊美科技信奉"追求 创新 超越 -- 让我们走得更近"赢得用户是企业生存的最大动力，走进，再走进用户。
+                </p>
+                <p>
+                    昊美科技追求“率真求实，和谐天成”，是贯穿客户、员工、合作伙伴、股东及一切关联方息息相关的高效、自然服务理念。
+                </p>
+            </div>
+            <!--<div class="center">
+                <div class="cultureone" data-stellar-background-ratio="0">
+                    <img src="img/pro/im/n1.png" alt=""/>
+                </div>
+                <div class="cultureone" data-stellar-background-ratio="0">
+                    <img src="img/pro/im/n2.png" alt=""/>
+                </div>
+                <div class="cultureone" data-stellar-background-ratio="0">
+                    <img src="img/pro/im/n3.png" alt=""/>
+                </div>
+                <div class="cultureone" data-stellar-background-ratio="0">
+                    <img src="img/pro/im/n4.png" alt=""/>
+                </div>
+                <div class="cultureone" data-stellar-background-ratio="0">
+                    <img src="img/pro/im/n5.png" alt=""/>
+                </div>
+
+            </div>-->
+
+        </div>
+        <div class="cultureshadow"></div>
+    </div>
+    <!--企业文化结束-->
+    <!--foot开始-->
+    <div class="ln-foot">
+        <div class="ln-footer w980 margin-auto">
+            <p>
+                <b class="ln-footlogo"></b>
+                杭州昊美科技有限公司 Copyright  All Right Reserved     www.harmony3.com (2005-2014)
+            </p>
+            <a class="ln-footback" href="">BACK</a>
+            <a class="ln-footop slogan" href="javascript:;">TOP</a>
+        </div>
+    </div>
+    <!--foot结束-->
+</div>
+   <script type="text/javascript" src="js/libs/require.js" data-main="js/config.js"></script>
+   <input type="hidden" id="router" value="harmon" />
+</body>
+</html>

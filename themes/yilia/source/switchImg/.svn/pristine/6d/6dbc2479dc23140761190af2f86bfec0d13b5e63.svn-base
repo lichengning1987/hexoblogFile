@@ -1,0 +1,114 @@
+.clearfix{clear: both;}
+.colorRed{color: #c73737;}
+/*employee*/
+body{overflow-x:hidden;}
+.employee,.news{width: 100%;height:111%;position: relative;font: 12px/32px 'Microsoft YaHei';}
+.employee-menu,.news-menu{height: 50px;width: 100%;background: rgba(0,0,0,0.6);position: fixed;top: 0;left: 0;z-index: 999;-moz-opacity:0.1;filter:alpha(opacity=50);}
+.employee-menu dl,.news-menu dl{font-size: 18px;line-height: 50px;}
+.employee .menu-bottom,.news .menu-bottom{position: absolute;left:121px;width: 90px;height: 2px;background-color: #e60000;bottom: 0px;}
+.employee-menu dl dd,.employee-menu dl dt,.news-menu dl dd,.news-menu dl dt{color: #fff;float: left;margin-left: 50px;font-size: 18px;font-family: 'Microsoft YaHei';}
+.talent-strategy{width:100%;height: 80%;position:relative;box-shadow: 0px 5px 10px #9e9895;}
+.talent-strategy .bg{background: url("../img/staff/staff_01.jpg") no-repeat center center;height:100%;width:100%;position:absolute;background-size: cover;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/staff/staff_01.jpg',sizingMethod='scale');}
+.employee-development{background-color: #fff;width:100%;height: auto;font: 12px/32px 'simsun';color: #000;text-align: center;}
+.employee-development .title{height: 100px;font:2em/100px 'Microsoft YaHei';color: #c19e8b;background-color: #d0cdcc;}
+.employee-development .content{background-color: #fff;width: 100%;height: auto;}
+.employee-development .office,.employee-development .roadmap{background-color: #d0cdcc;margin-top: 2px;width: 100%;height: 452px;position: relative;}
+.employee-development .roadmap{box-shadow: 0 -30px 10px #fff;}
+.employee-development .content .content-title{background: url("../img/staff/staff_02.png") no-repeat 0 0;width: 120px;height: 52px;background-size: cover;margin-top: 0;font-family: 'Microsoft YaHei';line-height: 52px;position: absolute;left: 44.4%;top:-2px;color: #666;font-size: 1.5em;}
+.employee-development .content .roadmap .content-title,.employee-development .content .trainning .content-title,.clicked-technology-bg,.clicked-engineering-bg,.clicked-sales-bg,.clicked-functional-bg{top:10px;}
+.employee-development .content ul,.employee-recruitment ul,.recruitment-submenu,.recruitment-submenu .submenu,.send-recruitment span,.send-recruitment,.employee-menu dl,.news-menu dl,.enterprise-news .content{width:980px;height:100%;margin:0 auto;position: relative;}
+.employee-development .content .content-line{left:0;background: url("../img/staff/staff_22.png") no-repeat 0 -4px;width: 100%;height: 2px;margin-top:0;background-size: cover;position: absolute;top:10px;}
+.employee-development .content ul li{width:25%;float:left;margin-top:90px;height: 300px;position: relative;}
+.employee-development .content ul li .technology-bg,.employee-recruitment .clicked-technology-bg,.employee-recruitment .technology-bg:hover{position: absolute;background: url("../img/staff/staff_03.png") no-repeat 0 0;width: 88px;height: 88px;background-size: cover;left:0;}
+.employee-development .content ul li .engineering-bg,.employee-recruitment .clicked-engineering-bg,.employee-recruitment .engineering-bg:hover{position: absolute;background: url("../img/staff/staff_04.png") no-repeat 0 0;width: 88px;height: 88px;background-size: cover;left:0;}
+.employee-development .content ul li .sales-bg,.employee-recruitment .clicked-sales-bg,.employee-recruitment .sales-bg:hover{position: absolute;background: url("../img/staff/staff_05.png") no-repeat 0 0;width: 88px;height: 88px;background-size: cover;left:0;}
+.employee-development .content ul li .functional-bg,.employee-recruitment .clicked-functional-bg,.employee-recruitment .functional-bg:hover{position: absolute;background: url("../img/staff/staff_06.png") no-repeat 0 0;width: 88px;height: 88px;background-size: cover;left:0;}
+.employee-development .content ul li ul{width: auto;height: 180px;margin-top:28px;padding-left:30px;position: relative;}
+.employee-development .content ul li ul li{clear:both; height: 30px;margin:0;width:auto;color: #666;}
+.employee-development .content ul li ul .technology-bg{position: absolute;background: url("../img/staff/staff_18.png") no-repeat 0 0; height:180px;width:14px;top:10px;left: 10px;}
+.employee-development .content ul li ul .engineering-bg{position: absolute;background: url("../img/staff/staff_20.png") no-repeat 0 0; height:180px;width:14px;top:10px;left: 10px;}
+.employee-development .content ul li ul .sales-bg{position: absolute;background: url("../img/staff/staff_20.png") no-repeat 0 0; height:180px;width:14px;top:10px;left: 10px;}
+.employee-development .content ul li ul .functional-bg{position: absolute;background: url("../img/staff/staff_19.png") no-repeat 0 0; height:180px;width:14px;top:10px;left: 10px;}
+.employee-development .class-name{font: 2em/88px 'Microsoft YaHei';color: #666;padding-left: 20px;}
+.employee-development .roadmap{background: url("../img/staff/staff_21.jpg") no-repeat center center;height: 100%;width: 100%;background-size: cover;}
+.employee-development .trainning{margin-top: 0;box-shadow: 0 4px 4px rgba(145, 142, 142, 0.58) inset;height:800px;}
+.employee-development .trainning ul .bg{background:url("../img/staff/staff_23.png") no-repeat center center;position: absolute;width: 100%;height: 710px;background-size: 100%;*display: inline;*margin:0 0 0 -500px;}
+.employee-elegant{width:100%;height:800px;background: url("../img/staff/staff_24.jpg") no-repeat 0 0;background-size: cover;text-align: center;box-shadow: 0 -30px 10px #fff;}
+.employee-elegant .title,.employee-recruitment .title{font:26px/80px 'Microsoft YaHei';color: #9b8a80;}
+.employee-recruitment{background-color: #d0cdcc;width:100%;height:auto;text-align: center;}
+.employee-recruitment .title{padding-top: 30px;line-height: 60px;display: inline-block;}
+.employee-recruitment .content-line,.enterprise-news .content-line{width: 100%;height: 0px;border-bottom: 2px solid #d6d6d6;display: inline-block;margin: 0;}
+.employee-recruitment ul{height:130px;}
+.employee-recruitment ul li{float: left;width:14%;height:100%;position: relative;}
+.employee-recruitment ul li .class-name{position: absolute;bottom: 0;left:18%;}
+.employee-recruitment .technology-bg{position: absolute;background: url("../img/staff/staff_10.png") no-repeat -1px 0;width: 88px;height: 88px;background-size: cover;left:1px;top:10px;}
+.employee-recruitment .engineering-bg{position: absolute;background: url("../img/staff/staff_11.png") no-repeat -1px 0;width: 88px;height: 88px;background-size: cover;left:0;top:10px;}
+.employee-recruitment .sales-bg{position: absolute;background: url("../img/staff/staff_12.png") no-repeat 0 0;width: 88px;height: 88px;background-size: cover;left:0;top:10px;}
+.employee-recruitment .functional-bg{position: absolute;background: url("../img/staff/staff_13.png") no-repeat 0 0;width: 88px;height: 88px;background-size: cover;left:0;top:10px;}
+.employee-recruitment .technology-bg:hover,.employee-recruitment .engineering-bg:hover,.employee-recruitment .sales-bg:hover,.employee-recruitment .functional-bg:hover,.employee-menu dl dd:hover,.employee-menu dl dt:hover,.scroll-top:hover,.send-recruitment span:hover,.oneTab label:hover,.enterprise-news ul:hover,.news-menu dt,.banner-bt li .pointer .ico:hover{cursor:pointer;}
+.recruitment-submenu{height: 520px;background-color: #d6d6d6;border-radius: 12px;margin-top: 20px;}
+.recruitment-submenu .submenu ul{height: 460px;width: 160px;display: inline-block;float: left;margin: 30px;clear:both;}
+.recruitment-submenu .submenu ul li{float: center;width: 162px;height: 32px;position: relative;line-height: 32px;color:#757575;font-size: 14px;}
+.submenu-content{height: 520px;width: 700px;margin-left: 270px;}
+.recruitment-submenu .submenu ul .recruitment-focus,.recruitment-submenu .submenu ul li:hover{cursor:pointer;background-color: #c63434;border-radius: 16px;color:#d6d6d6;}
+.recruitment-submenu dl{padding-top:30px;line-height:32px;text-align: left;color: #4d4d4d;font-size: 14px;}
+.recruitment-submenu .work-place{color: #af988c;}
+.recruitment-submenu dt{line-height:24px;}
+.send-recruitment-top{height: 28px;background-color: #d0cdcc;}
+.send-recruitment{height: 220px;position: relative;color: #c63434;width:100%;}
+.send-recruitment span{display: inline-block;width: 88px;height: 88px;background: url("../img/staff/staff_16.png") no-repeat 0 0;margin-top: 26px;}
+.send-recruitment p{font: 18px/24px 'Microsoft YaHei';}
+.send-recruitment .company-email{padding-top:10px;font: 30px/32px 'Times New Roman';}
+.send-recruitment-outer{height:auto;background-color: #c9c5c4;width: 100%;}
+.copy-right-outer{background-color:#fff;height: 190px;width: 100%;color: #b19c91;text-align: center;}
+.copy-right-outer span{font-size:10px;margin-left:20px;vertical-align: center;}
+.copy-right-outer .company-logo{background: url("../img/staff/staff_17.png") no-repeat 0 0;width: 18px;height: 18px;display:inline-block;vertical-align: middle;}
+.copy-right-outer p{display: inline-block;margin-top:90px;height: 30px;line-height: 30px;vertical-align: middle;}
+.scroll-top{position: fixed;bottom: 10px;right:10px;font-size: 9px;}
+.email-doc{width: 600px;height: 200px;position: fixed;top: 50%;left:50%;background-color: #fff;border: 1px solid #ccc;text-align: left;padding:30px;}
+.email-doc input{border:1px solid #ccc;}
+.email-doc-title{font-size: 30px;text-align: center;margin: 10px;}
+.employee-recruitment ul .bottom-bar{position: absolute;left:10px;height: 4px;width:64px;background-color: #c63434;bottom: -20px;}
+/*mCustomScrollbar*/
+.mCSB_scrollTools .mCSB_draggerRail{background-color: #c6c4c2;width: 8px;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color: #c6c4c2;}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {background-color: #938B89;}
+.ui-state-default{background:none;}
+.accordion-hov,.accordion-click{background-color:#6e8fd0;color:#ffc600;}
+.copyright{line-height:30px;background-color:#a3a3a3;}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail {height: 8px;margin: 4px 0;}
+
+/*news*/
+.topic-news{width: 100%;height:auto;}
+.topic-news .description{width: 100%;height:200px;}
+.enterprise-news,.bussy-news{width: 100%;height: 700px;background-color: #f5f1ef;position:relative;}
+.box-shadow{box-shadow: 0px 8px 8px #C8BCB6 inset;}
+.enterprise-news .title{text-align:center;width: 100%;height: 90px;font-size: 26px;margin-top: 0;padding-top: 11px;line-height: 74px;color: #c19e8b;}
+.enterprise-news .content-line{border-bottom: 2px solid #fff;position:absolute;top:85px;}
+.enterprise-news .content{background-color: #fff;margin-top: 20px;border-radius: 12px;height: 520px;}
+.enterprise-news .content .list{padding:50px 50px 0 50px;font: 14px/40px 'sinsum';}
+.enterprise-news .content .list li{color:#272727;list-style-image: url("../img/news/news_03.png");}
+.news-title{}
+.news-time{float: right;}
+.news-page{position:relative;width: 16%;height:50px;font-size: 14px;line-height: 50px;margin:0 auto;}
+.news-page .prev{width: 48px;height: 48px;background: url("../img/news/news_01.png") no-repeat 0 0;}
+.news-page .next{width: 48px;height: 48px;background: url("../img/news/news_02.png") no-repeat 0 0;}
+.enterprise-news .content .news-page li{float: left;padding-right:10px;}
+.list li a:hover{color: #c73737;text-decoration: underline;font-size: :16px;}
+.banner{position: relative;}
+.img-bottom{width: 100%;height:200px;background-color: rgba(255,0,0,0.5);display:inline-block;position: absolute;bottom: 0;}
+.active-news{display: block;position: relative;}
+.banner-img label a{font-size: 24px;color: #fff;display: block;line-height: 72px;text-align: center;border-bottom: 2px solid #cb2e54;font-family: 'microsoft yahei';}
+.banner-img label span{font-size: 14px;color: #fff;display: block;line-height: 32px;text-align: center;font-family: 'sinsum';}
+.banner-bt{height: 80px;width: 20%;padding: 0 40%;bottom: 0;left: 0;z-index: 9999;position: absolute;}
+.banner-bt li{float:left;width:33%;height:83px;}
+.banner-bt li .pointer{display:block;height:50px;padding:33px 0 0 0}
+.banner-bt li .pointer .ico,.banner-bt li .active .ico, .banner-bt li .pointer .ico:hover{display:block;width:12px;height:12px;margin:0 auto;background: url("../img/news/news_11.png") no-repeat 0 -11px;}
+.banner-bt .active .pointer .ico, .banner-bt li .pointer .ico:hover{background-position:0 0;}
+.elegant{width: 80%;margin: 0 auto;position: relative;}
+.mask{-moz-user-select: none;line-height: 70px;position: absolute;width: 70px;height: 70px;border-radius: 35px;color:#fff;border: 0;left: 0;top: 0;background-color: #65455a;background-size:cover;}
+.mask:hover,.mask-clicked{cursor: pointer;}
+.mask span{cursor: default;-moz-user-select: none;}
+.mask-clicked{-moz-user-select: none;position:absolute;cursor: pointer;font-size:0;border: 2px solid #ffdb00;z-index:999;}
+.canvas-cover{position: absolute;z-index: 999;}
+.canvas{position: absolute;left:0;border: 1px solid #C0B2B2;width: 100%;}
