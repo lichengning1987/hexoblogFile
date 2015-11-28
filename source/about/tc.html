@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>弹出层</title>
+	<style type="text/css">
+            /*弹出层*/
+        .black{ position:fixed;_position:absolute;  z-index:99999; width:100%;height:100%;_height:expression(eval(documentElement.scrollHeight));top:0;left:0px; background:#000;opacity:0.5; filter:alpha(opacity=50);
+            display:none; }
+        .tc-box{ display:none;width:359px; height:182px;position:fixed;top:250px;_position:absolute;_top:expression(eval(documentElement.scrollTop+200)); z-index:100000; left:50%; margin-left:-200px;}
+
+        .main-close{background:url("http://img01.taobaocdn.com/tps/i1/T1NX9yXEtfXXXo61zX-15-13.jpg") no-repeat;width:15px;height:13px;z-index:100010;font-size:16px;font-weight:700;text-indent:-9999px; color:#fff;float: right; cursor:pointer;position:relative;top:-176px;left:-32px; }
+        .tcAreas{width:359px;height:182px;margin-top:-182px; position:relative;}
+        .tcboxbg{width:359px;height:182px; background:url("http://img01.taobaocdn.com/tps/i1/T1ByiCXyVXXXX9GUbr-360-184.png")  no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://img01.taobaocdn.com/tps/i1/T1ByiCXyVXXXX9GUbr-360-184.png",sizingMethod='crop');}
+
+
+    </style>
+
+</head>
+<body>
+	 <div class="tclick">
+               点击这里
+     </div>
+
+     <div class="black" id="black"></div>
+     <div class="tc-box tc1" >
+         <div class="tcbg tcboxbg">
+         </div>
+         <div class="tcAreas ta1">
+                        内容区
+         </div>
+         <div class="main-close jclose">X</div>
+     </div>
+
+     <script src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy-min.js"></script>
+     <script type="text/javascript">
+             KISSY.ready(function(S){
+                   var D= S.DOM,E= S.Event,node= S.all;
+
+                 S.one(".tclick").on("click",function(){
+                     S.one("#black").show();
+                     S.one(".tc1").show();
+
+                 })
+                 S.one(".jclose").on("click",function(){
+                     S.one("#black").hide();
+                     S.one(".tc1").hide();
+                 })
+
+
+             })
+
+
+
+     </script>
+
+</body>
+</html>
